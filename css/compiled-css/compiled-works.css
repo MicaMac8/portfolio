@@ -64,7 +64,7 @@
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 4em 2em 1em 2em;
+  padding: 2em;
 }
 
 .work-reverse {
@@ -84,9 +84,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  //align-items: center;
   width : 30%;
 }
 
@@ -109,6 +107,17 @@
 .work-description {
   padding: 3em 3em .5em 3em;
   width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.work-img-little {
+  display: none;
 }
 
 .work-description h3 {
@@ -116,7 +125,8 @@
 }
 
 .work-description h4 {
-  margin: 0;
+  margin-bottom: .1em;
+  padding-bottom: .3em;
 }
 
 .work-description p {
@@ -145,3 +155,89 @@
     margin: .4em;
     padding: .3em .6em .3em .6em;
   }
+
+/* Tablet */
+
+@media screen and (max-width: 1280px) {
+
+  .work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    //justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4em 2em 1em 2em;
+  }
+
+  .work-description {
+    padding: 3em;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .work-img {
+    display: none;
+  }
+
+  .work-img-little {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-top: 2em ;
+  }
+
+  .work-img-little a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .work-img-little img {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+  }
+
+  .work-description-bottom {
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+}
+
+/* phone */
+
+@media screen and (max-width: 800px) {
+
+  .work {
+    padding: 1em;
+  }
+
+  .work-description {
+    padding: 2em .5em .5em .5em;
+    width: 100%;
+
+  }
+}
