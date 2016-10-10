@@ -35,9 +35,22 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 7em 2em 1em 2em;
+  margin: 8em 2em 1em 2em;
   width: 40%;
   height: 10%;
   text-align: center;
   line-height: 2em;
+}
+
+  /* phone */
+
+@media screen and (max-width: 800px) {
+    .work {
+      padding: 1em;
+    }
+    .btn-big {
+      margin: 3em 2em 1em 2em;
+      width: 60%;
+
+    }
 }

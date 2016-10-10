@@ -69,8 +69,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 29em;
-  padding-top: 5em;
+  padding: 6.5em 0 6.5em 0;
 }
 
 .contact-content {
@@ -124,17 +123,39 @@
 
   /* animation */
 
+  @media screen and (min-width: 1281px) {
+
+    .contact-buble {
+      -webkit-transition: all 250ms ease-in-out;
+      transition: all 250ms ease-in-out;
+    }
+
+    .contact-buble:hover {
+      padding: 0.5;
+      box-shadow: 0 40px 15px -24px rgba(0, 0, 0, .4);
+      font-size: 1.5em;
+    }
+
+    .contact-buble-mail:hover {
+      font-size: 3.5em;
+    }
+
+  }
+
+/* phone */
+
+@media screen and (max-width: 800px) {
+  #contact {
+    padding: 2em 0 2em 0;
+  }
+  .contact-content-line {
+    padding: .5em 0 .5em 0;
+  }
   .contact-buble {
-    -webkit-transition-duration: 250ms;
-            transition-duration: 250ms;
+    margin: 0 .6em 0 .6em;
   }
-
-  .contact-buble:hover {
-    padding: 0.5;
-    box-shadow: 0 40px 15px -24px rgba(0, 0, 0, .4);
+  .contact-buble-mail {
     font-size: 1.5em;
+    margin: 0;
   }
-
-  .contact-buble-mail:hover {
-    font-size: 3.5em;
-  }
+}
