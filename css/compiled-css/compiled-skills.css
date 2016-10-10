@@ -1,0 +1,97 @@
+/* style */
+
+#skills {
+  background-color: #dcdcdc;
+}
+
+.skill-grade {
+  border: 4px solid #ff4d3a;
+  background-color: #ff4d3a;
+  border-radius: 15px;
+}
+
+.skill-empty {
+  background-color: #dcdcdc;
+  border-radius: 0px 15px 15px 0;
+}
+
+/* layout */
+
+.skill-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;;
+  -ms-flex-wrap: wrap;;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 3em 1em 3em 1em;
+}
+
+.skill-content p {
+  margin: .4em;
+  width: 40%;
+  height: 2em;
+  padding-top: .8em;
+  text-align: right;
+}
+
+.skill-grade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 1.3em;
+  width: 40%;
+}
+
+.skill-empty {
+  width: 50%;
+  height: 1.3em;
+}
+
+  /* skill grade */
+
+  #skill-grade-html {
+    width: 10%;
+  }
+
+  #skill-grade-css {
+    width: 25%;
+  }
+
+  #skill-grade-js {
+    width: 50%;
+  }
+
+  #skill-grade-jquery {
+    width: 60%;
+  }
+
+  #skill-grade-ruby {
+    width: 95%;
+  }
+
+  /*#skill-grade-php {
+    width: 99%;
+  }*/
+
+  #skill-grade-bootstrap {
+    width: 35%;
+  }
+
+  #skill-grade-git {
+    width: 30%;
+  }
+
+  #skill-grade-inkscape {
+    width: 70%;
+  }

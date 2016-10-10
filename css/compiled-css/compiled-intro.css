@@ -1,0 +1,36 @@
+/* style */
+
+#intro {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: #dcdcdc;
+  text-shadow: 0 0 5px #ccc;
+}
+
+#intro h1 {
+  font-size: 3em;
+  color: #ff4d3a;
+}
+
+#intro h2 {
+  color: #af71ff;
+}
+
+#intro p {
+  color: rgba(74, 190, 235, 1);
+}
+
+.intro-highlight {
+  color: rgba(43, 118, 239, 1);
+}
+
+/* layout */
+
+#intro {
+  padding: 8em;
+  text-align: center;
+}
+
+#intro h2 {
+  padding-bottom: 1.5em;
+}

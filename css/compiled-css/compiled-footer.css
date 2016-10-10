@@ -1,0 +1,64 @@
+/* style */
+
+#footer {
+  background-color: #444;
+}
+
+/* layout */
+
+#footer {
+  height: 3em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;;
+  -webkit-box-align: center;;
+      -ms-flex-align: center;;
+          align-items: center;
+  height: 1.5em;
+  width: 25%;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms
+}
+
+.btn-footer-text {
+  display: none;
+}
+
+.btn-footer:hover {
+  height: 3em;
+}
+
+.btn-footer:hover .btn-footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer:hover .btn-footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

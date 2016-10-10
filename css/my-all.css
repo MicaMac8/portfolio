@@ -1,0 +1,36 @@
+
+/* css reset */
+@import "vendor/reset.css";
+
+/* css normalize */
+@import "vendor/normalize.css";
+
+/* Fonts */
+@import 'https://fonts.googleapis.com/css?family=Lato:300|Raleway:300';
+
+/* base */
+@import "my-css/base.css";
+
+/* navbar */
+@import "my-css/navbar.css";
+
+/* intro */
+@import "my-css/intro.css";
+
+/* separation */
+@import "my-css/separation.css";
+
+/* works */
+@import "my-css/works.css";
+
+/* skills */
+@import "my-css/skills.css";
+
+/* contact */
+@import "my-css/contact.css";
+
+/* footer */
+@import "my-css/footer.css";
+
+/* utilities */
+@import "my-css/utilities.css";

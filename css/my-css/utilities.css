@@ -1,0 +1,51 @@
+/* style */
+
+.links {
+  text-decoration: none;
+  color: #869deb;
+}
+
+.links:hover {
+  color: #a49deb;
+}
+
+.links:visited {
+  color: #bbbdeb;
+}
+
+.btn-big {
+  background-color: rgba(43, 118, 239, .1);
+  border: 1.5px solid rgba(43, 118, 239, .2);
+  border-radius: 40px;
+  color: #aaa;
+}
+
+.btn:hover {
+  background-color: rgba(43, 118, 239, .3);
+}
+
+
+/* layout */
+
+.btn-big {
+  display:flex;
+  flex-direction: column;
+  margin: 8em 2em 1em 2em;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2em;
+}
+
+  /* phone */
+
+@media screen and (max-width: 800px) {
+    .work {
+      padding: 1em;
+    }
+    .btn-big {
+      margin: 3em 2em 1em 2em;
+      width: 60%;
+
+    }
+}

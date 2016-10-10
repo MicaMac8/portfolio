@@ -1,0 +1,43 @@
+/* style */
+
+.links {
+  text-decoration: none;
+  color: #869deb;
+}
+
+.links:hover {
+  color: #a49deb;
+}
+
+.links:visited {
+  color: #bbbdeb;
+}
+
+.btn-big {
+  background-color: rgba(43, 118, 239, .1);
+  border: 1.5px solid rgba(43, 118, 239, .2);
+  border-radius: 40px;
+  color: #aaa;
+}
+
+.btn:hover {
+  background-color: rgba(43, 118, 239, .3);
+}
+
+
+/* layout */
+
+.btn-big {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 7em 2em 1em 2em;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2em;
+}

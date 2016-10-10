@@ -1,0 +1,62 @@
+/* style */
+
+.separation {
+  background-color: #bbb;
+}
+
+.btn {
+  border: 2px solid rgba(43, 118, 239, .5);
+  background-color: rgba(43, 118, 239, .4);
+  color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: .6em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgba(43, 118, 239, 1);
+  color: #eee;
+}
+
+/* layout */
+
+.separation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2.5em;
+  text-align: center;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+  margin: 0;
+  padding: .5em;
+  width: 5em;
+  -webkit-transition: 350ms;
+  transition: 350ms;
+}
+
+.arrow {
+  heigth: 10px;
+}

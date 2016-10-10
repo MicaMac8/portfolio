@@ -1,0 +1,140 @@
+/* style */
+
+#contact {
+  background-color: #eee;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+  /* bubbles */
+
+  .contact-buble {
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.8);
+  }
+
+  .contact-buble-mail {
+    font-size: 3em;
+    border: 3px solid #85c88f;
+    background-color: #99dda4;
+    color:#eee;
+  }
+
+  .contact-buble-linkedin {
+    border: 3px solid #056ea7;
+    background-color: #1883bb;
+    color: #eee;
+  }
+
+  .contact-buble-github {
+    border: 3px solid black;
+    background-color: black;
+    color: #eee;
+  }
+
+  .contact-buble-facebook {
+    border: 3px solid #264083;
+    background-color: #3b5998;
+    color: #eee;
+  }
+
+  .contact-buble-twitter {
+    border: 3px solid #1867a3;
+    background-color: #2b7bb9;
+    color: #eee;
+  }
+
+  .contact-buble-codepen {
+    border: 3px solid black;
+    background-color: black;
+    color: #eee;
+  }
+
+  .contact-buble-stackoverflow {
+    border: 3px solid #dd690d;
+    background-color: #f48024;
+    color: #eee;
+  }
+
+
+/* layout */
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 29em;
+  padding-top: 5em;
+}
+
+.contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-content-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5em;
+}
+
+  /* bubbles */
+
+  .contact-buble {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 2em;
+    width: 2em;
+    margin: 0 3em 0 3em;
+  }
+
+  .contact-buble-mail {
+    margin: 0 .5em 0 .5em;
+  }
+
+  /* animation */
+
+  .contact-buble {
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+  }
+
+  .contact-buble:hover {
+    padding: 0.5;
+    box-shadow: 0 40px 15px -24px rgba(0, 0, 0, .4);
+    font-size: 1.5em;
+  }
+
+  .contact-buble-mail:hover {
+    font-size: 3.5em;
+  }
