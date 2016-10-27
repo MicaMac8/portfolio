@@ -40,9 +40,6 @@
   /* phone */
 
 @media screen and (max-width: 800px) {
-    .work {
-      padding: 1em;
-    }
     .btn-big {
       margin: 3em 2em 1em 2em;
       width: 60%;
