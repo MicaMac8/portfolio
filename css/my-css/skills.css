@@ -31,6 +31,15 @@
   align-items: center;
 }
 
+.col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  min-width: 360px;
+}
+
 .skill-content p {
   text-align: right;
 }
@@ -44,65 +53,38 @@
 .skill-grade {
   display: flex;
   justify-content: flex-end;
+  width: 30%;
+  height: .6em;
+  border-radius: 7px;
 }
 
-  .skill-content {
-    width: 95%;
-    padding: 1em 0 1em 0;
-  }
+.skill-content {
+  width: 95%;
+  padding: 1em 0 1em 0;
+}
 
-  .skill-content p {
-    margin: .4em;
-    width: 30%;
-    height: 1.5em;
-    padding-top: .8em;
-    font-size: .8em;
-  }
+.skill-content p {
+  margin: .4em;
+  width: 30%;
+  height: 1.5em;
+  padding-top: .8em;
+  font-size: .8em;
+}
 
-  .skill-grade {
-    width: 30%;
-    height: .6em;
-    border-radius: 7px;
-  }
+.skill-empty {
+  height: .6em;
+  border-radius: 0 3px 3px 0;
+}
 
-  .skill-empty {
-    height: .6em;
-    border-radius: 0 3px 3px 0;
-  }
-
-  #skills i {
-    font-size: 1.2em;
-    margin: .4em;
-    width: 10%;
-  }
+#skills i {
+  font-size: 1.2em;
+  margin: .4em;
+  width: 10%;
+}
 
 
 /* desktop */
-@media screen and (min-width: 1281px) {
-  .skill-content {
-    width: 100%;
-    margin: auto;
-    padding: 3em 1em 3em 1em;
-  }
 
-  .skill-content p {
-    margin: .4em;
-    width: 10%;
-    height: 2em;
-  }
-
-  /* skillbar */
-  .skill-grade {
-    width: 15%;
-    height: 1em;
-    border-radius: 10px;
-    margin: 0 6em 0 0;
-  }
-
-  .skill-empty {
-    height: 1em;
-    border-radius: 0px 8px 8px 0;
-  }
 
   #skills i {
     font-size: 1.5em;
@@ -110,7 +92,6 @@
     margin: 0;
   }
 
-}
 
 /* skill grade */
 
@@ -141,16 +122,16 @@
 #skill-grade-grunt {
   width: 97%;
 }
-#skill-grade-ruby {
-  width: 93%;
-}
 #skill-grade-angular {
   width: 97%;
 }
-#skill-grade-heroku {
-  width: 97%;
+#skill-grade-ruby {
+  width: 93%;
 }
 #skill-grade-php {
+  width: 97%;
+}
+#skill-grade-heroku {
   width: 97%;
 }
 #skill-grade-git {
@@ -172,7 +153,7 @@
   width: 85%;
 }
 #skill-grade-atom {
-  width: 30%;
+  width: 20%;
 }
 #skill-grade-linux {
   width: 30%;
