@@ -40,9 +40,14 @@
   /* phone */
 
 @media screen and (max-width: 800px) {
-    .btn-big {
-      margin: 3em 2em 1em 2em;
-      width: 60%;
-
-    }
+  .btn-big {
+    border-radius: 0;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    height: 10%;
+    text-align: center;
+    line-height: 2em;
+  }
 }
