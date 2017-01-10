@@ -25,14 +25,21 @@
     <meta name="twitter:image:src" content="http://www.michaelmaccio.com/ressources/presentation.png">
 
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- devicon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">  <!-- fontawesome -->
-
-    <link rel="stylesheet" href="css/all.css"> <!-- compiled css -->
-    <!-- <link rel="stylesheet" href="css/my-all.css"> --> <!-- css before compilation -->
+    <!-- compiled css -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- css before compilation -->
+    <!-- <link rel="stylesheet" href="css/my-all.css"> -->
   </head>
 
   <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
     <nav id="navbar" role="navigation">
       <ul>
@@ -42,10 +49,12 @@
           Works<i class="fa fa-caret-down" aria-hidden="true"></i>
           </a>
           <ul class="nav-works">
-            <li><a href="#work-1">Random Quote Machine</a></li>
-            <li><a href="#work-2">Komi</a></li>
-            <li><a href="#work-3">Optimiste et Curieux</a></li>
-            <li><a href="#work-4">Kobe's achievements</a></li>
+            <li><a href="#work-1">Monaco Events</a></li>
+            <li><a href="#work-2">La maison de l'architecture</a></li>
+            <li><a href="#work-3">Random Quote Machine</a></li>
+            <li><a href="#work-4">Komi</a></li>
+            <li><a href="#work-5">Optimiste et Curieux</a></li>
+            <li><a href="#work-6">Kobe's achievements</a></li>
           </ul>
         </li>
         <li><a href="#skills">Skills</a></li>
@@ -67,8 +76,82 @@
         <a href="#work-1" class="btn">Works<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
       </div>
 
+
+
       <div id="portfolio"> <!-- Works -->
+
         <div class="work" id="work-1">  <!-- Work 1-->
+          <div class="work-img">
+            <a href="https://micamac8.github.io/monaco-events/" target="_blank"><img src="ressources/monaco.png" alt="Monaco Events"></a>
+          </div>
+          <div class="work-description">
+            <h3>Monaco Events</h3>
+            <h4>About</h4>
+            <p>Présentation des activités de la ville de Monaco</p>
+            <h4>Project date</h4>
+            <p>octobre 2016</p>
+            <h4>Coffee Consumed</h4>
+            <p>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+            </p>
+            <h4>Tags</h4>
+            <ul class="work-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>git</li>
+              <li>atom</li>
+            </ul>
+            <div class="work-img-little">
+              <a href="https://micamac8.github.io/monaco-events/" target="_blank"><img src="ressources/monaco.png" alt="Monaco"></a>
+            </div>
+            <p class="work-description-bottom"><a href="https://micamac8.github.io/monaco-events/" target="_blank" class="links">view site</a></p>
+          </div>
+          <a href="#work-2" class="btn btn-big">
+            Next work<br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+          </a>
+        </div><!-- /#work1 -->
+
+        <div class="work" id="work-2">  <!-- Work 2-->
+          <div class="work-img">
+            <a href="https://micamac8.github.io/projet-architecte/" target="_blank"><img src="ressources/architecte.png" alt="maison d'architecture"></a>
+          </div>
+          <div class="work-description work-reverse">
+            <h3>La maison de l'architecture</h3>
+            <h4>About</h4>
+            <p>Prototype d'un site pour architecte fait avec <a href="http://getbootstrap.com/" target="_blank" class="links">Bootstrap</a></p>
+            <h4>Project date</h4>
+            <p>octobre 2016</p>
+            <h4>Coffee Consumed</h4>
+            <p>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+            </p>
+            <h4>Tags</h4>
+            <ul class="work-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>bootstrap</li>
+              <li>jquery</li>
+              <li>git</li>
+              <li>atom</li>
+            </ul>
+            <div class="work-img-little">
+              <a href="https://micamac8.github.io/projet-architecte/" target="_blank"><img src="ressources/architecte.png" alt="maison d'architecture"></a>
+            </div>
+            <p class="work-description-bottom"><a href="https://micamac8.github.io/projet-architecte/" target="_blank" class="links">view site</a></p>
+          </div>
+          <a href="#work-3" class="btn btn-big">
+            Next work<br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+          </a>
+        </div><!-- /#work2 -->
+
+        <div class="work" id="work-3">  <!-- Work 3-->
           <div class="work-img">
             <a href="http://codepen.io/MicMac8/full/ozbpyq/" target="_blank"><img src="ressources/rdm-quote-machine.png" alt="ramdom quote machime image">
             </a>
@@ -103,12 +186,12 @@
             </div>
             <p class="work-description-bottom"><a href="http://codepen.io/MicMac8/full/ozbpyq/" target="_blank" class="links">see it on codepen</a></p>
           </div>
-          <a href="#work-2" class="btn btn-big">
+          <a href="#work-4" class="btn btn-big">
             Next work<br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
           </a>
-        </div>
+        </div><!-- /#work3 -->
 
-        <div class="work" id="work-2">  <!-- Work 2-->
+        <div class="work" id="work-4">  <!-- Work 4-->
           <div class="work-img">
             <a href="https://micamac8.github.io/komi-middleman/" target="_blank"><img src="ressources/komi.png" alt="Komi landingpage"></a>
           </div>
@@ -166,12 +249,12 @@
             </div>
             <p class="work-description-bottom"><a href="https://micamac8.github.io/komi-middleman/" target="_blank" class="links">view site</a></p>
           </div>
-          <a href="#work-3" class="btn btn-big">
+          <a href="#work-5" class="btn btn-big">
             Next work<br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
           </a>
-        </div>
+        </div><!-- /#work4 -->
 
-        <div class="work" id="work-3">  <!-- Work 3-->
+        <div class="work" id="work-5">  <!-- Work 5-->
           <div class="work-img">
             <a href="http://www.optimisteetcurieux.fr/" target="_blank"><img src="ressources/oec.png" alt="Optimiste et Curieux homepage">
             </a>
@@ -211,12 +294,12 @@
             </div>
             <p class="work-description-bottom"><a href="http://www.optimisteetcurieux.fr/" target="_blank" class="links">view site</a></p>
           </div>
-          <a href="#work-4" class="btn btn-big">
+          <a href="#work-6" class="btn btn-big">
             Next work<br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
           </a>
-        </div>
+        </div><!-- /#work5 -->
 
-        <div class="work" id="work-4">  <!-- Work 4-->
+        <div class="work" id="work-6">  <!-- Work 6-->
           <div class="work-img">
             <a href="http://codepen.io/MicMac8/full/NNzxNg/" target="_blank"><img src="ressources/kobe.png" alt="The black Mamba's achievements"></a>
           </div>
@@ -247,8 +330,9 @@
             </div>
             <p class="work-description-bottom"><a href="http://codepen.io/MicMac8/full/NNzxNg/" target="_blank" class="links">view on CodePen</a></p>
           </div>
-        </div>
-      </div>
+        </div><!-- /#work6 -->
+
+      </div><!-- /#portfolio -->
 
       <div class="separation"> <!-- séparation de section -->
         <a href="#skills" class="btn">Skills<br><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -256,24 +340,40 @@
 
       <div id="skills">   <!-- Skills -->
         <div class="skill-content">
-          <p>HTML</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-html"></div></div>
-          <p>CSS</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-css"></div></div>
-          <p>Java-Script</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-js"></div></div>
-          <p>JQuery</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-jquery"></div></div>
-          <p>Bootstrap</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-bootstrap"></div></div>
-          <p>Ruby</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-ruby"></div></div>
-          <!-- <p>PHP</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-php"></div></div> -->
-          <p>Github</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-git"></div></div>
-          <p>Inkscape</p>
-          <div class="skill-grade"><div class="skill-empty" id="skill-grade-inkscape"></div></div>
+          <div class="col">
+            <p>HTML</p><i class="devicon-html5-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-html"></div></div>
+            <p>CSS</p><i class="devicon-css3-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-css"></div></div>
+            <p>Bootstrap</p><i class="devicon-bootstrap-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-bootstrap"></div></div>
+            <p>Sass</p><i class="devicon-sass-original colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-sass"></div></div>
+            <p>Java-Script</p><i class="devicon-javascript-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-js"></div></div>
+            <p>JQuery</p><i class="devicon-jquery-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-jquery"></div></div>
+            <p>Node.js</p><i class="devicon-nodejs-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-node"></div></div>
+            <p>React</p><i class="devicon-react-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-react"></div></div>
+            <p>MongoDB</p><i class="devicon-mongodb-plain-wordmark colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-mongo"></div></div>
+          </div>
+          <div class="col">
+            <p>Git</p><i class="devicon-git-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-git"></div></div>
+            <p>Wordpress</p><i class="devicon-wordpress-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-wordpress"></div></div>
+            <p>Inkscape</p><i class="devicon-inkscape-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-inkscape"></div></div>
+            <p>Gimp</p><i class="devicon-gimp-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-gimp"></div></div>
+            <p>Atom</p><i class="devicon-atom-original colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-atom"></div></div>
+            <p>Linux</p><i class="devicon-linux-plain colored"></i>
+            <div class="skill-grade"><div class="skill-empty" id="skill-grade-linux"></div></div>
+          </div>
         </div>
 
       </div>
