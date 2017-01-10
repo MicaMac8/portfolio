@@ -117,22 +117,10 @@
   width: 85%;
 }
 #skill-grade-react {
-  width: 97%;
+  width: 85%;
 }
-#skill-grade-grunt {
-  width: 97%;
-}
-#skill-grade-angular {
-  width: 97%;
-}
-#skill-grade-ruby {
-  width: 93%;
-}
-#skill-grade-php {
-  width: 97%;
-}
-#skill-grade-heroku {
-  width: 97%;
+#skill-grade-mongo {
+  width: 85%;
 }
 #skill-grade-git {
   width: 20%;
@@ -142,9 +130,6 @@
 }
 #skill-grade-wordpress {
   width: 97%;
-}
-#skill-grade-trello {
-  width: 25%;
 }
 #skill-grade-inkscape {
   width: 60%;

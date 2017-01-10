@@ -6,7 +6,7 @@
 
 #navbar > ul > li > a {
   text-decoration: none;
-  background-color: rgba(43, 118, 239, .7);
+  background-color: rgb(43, 118, 239);
   color: #eee;
   font-weight: bold;
 }
@@ -17,13 +17,13 @@
 
 .nav-works a {
   text-decoration: none;
-  background-color: rgba(43, 118, 239, .8);
+  background-color: rgb(43, 118, 239);
   color: #eee;
   font-weight: bold;
 }
 
 #navbar a:hover {
-  background-color: rgba(43, 118, 239, 1);
+  background-color: rgb(60, 130, 260);
 }
 
 /* layout */
@@ -84,15 +84,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0;
-            flex: 1 1 0;
+    //flex: 1 1 0; /* inutile ? */
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     height: 2.3em;
     margin: 0;
-    padding-left: 1em;
+    padding: 0 1em 0 .5em;
   }
 
   .nav-works li {
@@ -136,8 +134,8 @@
   #dropdown:hover .nav-works li:nth-child(2) {
     -webkit-animation-name: works-menu;
             animation-name: works-menu;
-    -webkit-animation-duration: 400ms;
-            animation-duration: 400ms;
+    -webkit-animation-duration: 350ms;
+            animation-duration: 350ms;
     -webkit-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
     //animation-delay: 50ms;
@@ -146,8 +144,8 @@
   #dropdown:hover .nav-works li:nth-child(3) {
     -webkit-animation-name: works-menu;
             animation-name: works-menu;
-    -webkit-animation-duration: 500ms;
-            animation-duration: 500ms;
+    -webkit-animation-duration: 400ms;
+            animation-duration: 400ms;
     -webkit-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
     //animation-delay: 100ms;
@@ -156,11 +154,30 @@
   #dropdown:hover .nav-works li:nth-child(4) {
     -webkit-animation-name: works-menu;
             animation-name: works-menu;
+    -webkit-animation-duration: 450ms;
+            animation-duration: 450ms;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    //animation-delay: 150ms;
+  }
+
+  #dropdown:hover .nav-works li:nth-child(5) {
+    -webkit-animation-name: works-menu;
+            animation-name: works-menu;
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    //animation-delay: 150ms;
+  }
+  #dropdown:hover .nav-works li:nth-child(6) {
+    -webkit-animation-name: works-menu;
+            animation-name: works-menu;
     -webkit-animation-duration: 600ms;
             animation-duration: 600ms;
     -webkit-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
-    //animation-delay: 150ms;
+    //animation-delay: 175ms;
   }
 
   @-webkit-keyframes works-menu {
